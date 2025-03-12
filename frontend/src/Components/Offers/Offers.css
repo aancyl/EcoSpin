@@ -1,0 +1,28 @@
+.offers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    padding: 20px;
+    color: white;
+}
+
+.offers-content {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.offer{
+    font-family: Helvetica, sans-serif;
+    font-size: 8vh;
+    font-weight: 100;
+}
+
+@media (max-width: 500px){
+    .offer{
+        font-size: 5vh;
+    }
+}

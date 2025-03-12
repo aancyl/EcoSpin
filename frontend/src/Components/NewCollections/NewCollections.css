@@ -1,0 +1,133 @@
+.new-collections {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.new-collections img {
+    width: 23vh;
+}
+
+.new-collections .title {
+    font-size: 28px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+}
+
+.new-collections h1 {
+    font-family: Helvetica;
+    color: black;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.new-collections hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: rgb(225, 149, 56);
+}
+
+.new-collections-item {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.new-collections-item:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1280px) {
+    .new-collections {
+        height: auto;
+    }
+
+    .new-collections h1 {
+        font-size: 70px;
+    }
+
+    .new-collections hr {
+        width: 160px;
+        height: 4px;
+    }
+
+    .new-collections-item {
+        gap: 20px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1024px) {
+    .new-collections {
+        height: 60vh;
+        padding-bottom: 130px;
+    }
+
+    .new-collections h1 {
+        font-size: 70px;
+    }
+
+    .new-collections hr {
+        width: 120px;
+        height: 3px;
+    }
+
+    .new-collections-item {
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .new-collections {
+        height: auto;
+        gap: 6px;
+    }
+
+    .new-collections h1 {
+        font-size: 70px;
+    }
+
+    .new-collections hr {
+        width: 100px;
+    }
+
+    .new-collections-item {
+        gap: 100px;
+    }
+
+    .new-collections-item img {
+        width: 150%;
+    }
+}
+
+@media (max-width: 500px) {
+    .new-collections-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+
+    .item img {
+        width: 115%;
+    }
+
+    .new-collections h1 {
+        color: black;
+        font-size: 70px;
+    }
+
+    .new-collections img {
+        width: 200%;
+    }
+
+    .new-collections {
+        gap: 9px;
+    }
+}

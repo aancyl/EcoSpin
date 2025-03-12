@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Vujahday+Script&display=swap');
+
+.review-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.left-title-container {
+    flex: 1;
+    text-align: right;
+}
+
+.average-rating-circle {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid; 
+    margin-left: 50px; 
+}
+
+.average-rating-circle p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 200%;
+}
+
+.review-container {
+    padding: 10%;
+}
+
+.review-container-title {
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 70px;
+    line-height: 1;
+    margin: 0;
+}
+
+.review-container-review {
+    border: 1px solid black;
+    border-radius: 1px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.review-container-review .reveiw-right {
+    border: 1px solid red;
+    font-family: Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.review-right-rating {
+    align-items: center;
+    font-size: 22px;
+}
+
+.review-right-username {
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    font-family:  "Dancing Script", cursive;
+}
+
+.review-container-review .review-left {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.review-left-comment-title {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.review-left-comment {
+    font-size: 16px;
+}
+
+.review-right {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+
+.review-see-more-button {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.see-more-button {
+    border: 1px solid black;
+    background-color: black;
+    padding: 15px;
+    font-weight: 100;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+@media (max-width: 500px) {
+    .review-container-review {
+        grid-template-columns: 1fr; /* Change to one column layout */
+    }
+    .average-rating-circle {
+        margin-left: 10px;
+    }
+    .review-container-title{
+        font-size: 61px;
+    }
+    .review-container-review .review-left {
+        text-align: center; /* Align left section to center */
+        padding-left: 0; /* Remove left padding */
+        padding-top: 20px; /* Add top padding */
+    }
+
+    .review-container-review .reveiw-right {
+        text-align: center; /* Align right section to center */
+    }
+}

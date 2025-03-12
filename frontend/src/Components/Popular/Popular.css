@@ -1,0 +1,131 @@
+.popular {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.popular img {
+    width: 23vh;
+}
+
+.popular .title {
+    font-size: 28px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+}
+
+.popular h1 {
+    font-family: Helvetica;
+    color: black;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.popular hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: rgb(225, 149, 56);
+}
+
+.popular-item {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+
+
+@media (max-width: 1280px) {
+    .popular {
+        height: auto;
+    }
+
+    .popular h1 {
+        font-size: 70px;
+    }
+
+    .popular hr {
+        width: 160px;
+        height: 4px;
+    }
+
+    .popular-item {
+        gap: 20px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1024px) {
+    .popular {
+        height: 60vh;
+        padding-bottom: 130px;
+    }
+
+    .popular h1 {
+        font-size: 70px;
+    }
+
+    .popular hr {
+        width: 120px;
+        height: 3px;
+    }
+
+    .popular-item {
+        gap: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .popular {
+        height: auto;
+        gap: 6px;
+    }
+
+    .popular h1 {
+        font-size: 70px;
+    }
+
+    .popular hr {
+        width: 100px;
+    }
+
+    .popular-item {
+        gap: 100px;
+    }
+
+    .popular-item img {
+        width: 150%;
+    }
+}
+
+@media (max-width: 500px) {
+    .popular-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .item img {
+        width: 106%;
+    }
+
+    .popular h1 {
+        color: black;
+        font-size: 70px;
+    }
+
+    .popular img {
+        width: 200%;
+    }
+
+    .popular {
+        gap: 9px;
+    }
+}

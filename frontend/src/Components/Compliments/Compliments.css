@@ -1,0 +1,66 @@
+.compliments {
+    height: 550px;
+    text-align: center;
+    margin: 4rem 1.5rem;
+  }
+  
+  .compliments-heading {
+    font-family: monospace;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  .compliments-heading h5{
+    font-weight: 450;
+  }
+  
+  .compliments-text {
+    margin-bottom: 20px;
+    font-weight: 300;
+    padding: 1% 20%
+  }
+
+  .compliments-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 55px;
+  }
+  
+  .dot-indicators {
+    margin-top: 20px;
+  }
+  
+  .dot-indicators span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border:1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dot-indicators span.active {
+    
+    background-color:black;
+  }
+
+  @media (max-width: 1000px) {
+    .compliments{
+        height: 500px;
+    }
+    .compliments-text h1{
+        font-size: 250%;
+    }
+  }
+
+  @media (max-width:600px) {
+    .compliments-text{
+        padding: 5% 5%;
+    }
+    .compliments-text h1{
+        font-size: 35px;
+    }
+  }
+  

@@ -1,0 +1,117 @@
+.payment {
+    padding: 5% 25%;
+}
+
+.payment h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin: 20px 0px;
+    font-size: 70px;
+    padding-left: 25px;
+}
+
+.payment-details h4{
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+.payment p {
+    font-weight: 500;
+}
+
+.payment input {
+    background-color: rgb(250, 250, 251);
+    margin-bottom: 10px;
+}
+
+.payment-details {
+    padding: 5%;
+}
+
+.place-order-button {
+    margin-top: 20px;
+    width: 100%;
+    height: 72px;
+    color: white;
+    background: black;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.payment-online-options {
+    padding: 4% 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.payment-online-options button {
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.payment-credit-card {
+    padding: 4% 4%;
+    font-size: 100%;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.payment-credit-card p {
+    padding-top: 0%;
+    padding-bottom: 2%;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.payment-credit-card input {
+    height: 35px;
+    border-radius: 0px;
+    border: 1.5px solid black;
+    margin-bottom: 20px;
+    font-size: 17px;
+    height: 60px;
+    padding-inline-start: 5px;
+}
+
+.payment-card-details input {
+    width: 100%;
+}
+
+.red-text{
+    color: rgb(255, 8, 8);
+    text-align: center;
+}
+.payment-Expiration-CVV {
+    padding: 2% 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.payment-Expiration-CVV input {
+    width: 90%;
+}
+
+@media (max-width: 800px) {
+    .payment {
+        padding: 5% 12%;
+    }
+}
+
+@media (max-width: 450px) {
+    .payment {
+        padding: 5% 2%;
+    }
+    .payment-details h4{
+        font-size: 30px;
+        font-weight: 100;
+    }
+}

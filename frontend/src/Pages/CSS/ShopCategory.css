@@ -1,0 +1,126 @@
+.shopcategory-banner{
+    display: block;
+    width: 82%;
+    margin-left: 9%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.shopcategory-products{
+    margin: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
+
+.shopcategory-pagename{
+    padding-top:0px;
+}
+.shopcategory-pagename p{
+    line-height: 1px;
+    text-align: center;
+    font-size: 45px;
+    font-family:"Dancing Script", cursive;
+    font-weight: 1000;
+    padding-top: 65px;
+}
+.shopcategory-pagename h1{
+    line-height: 1.5;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(42, 42, 42);
+    font-size: 700%;
+    font-weight: 100;
+    font-family:  "Helvetica", cursive;
+    border-radius: 10px;
+    
+}       
+
+.shopcategory-products img{
+    height: 23vh;
+    width: 30vh;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.item{
+    
+    font-size: 15px;
+}
+
+.item p{
+    padding-left: 3px;
+}
+
+.item-price-new{
+    padding-left: 3px;
+}
+
+
+@media (max-width: 1280px) {
+    .shopcategory-banner{
+        margin: 20px auto;
+    }
+    
+    .shopcategory-products{
+        width: 78%;
+        margin: 10px auto;
+        row-gap: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .shopcategory-products img{
+        height: 19vh;
+        width: 25vh;
+
+    }
+    .shopcategory-products .item{
+        margin: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .shopcategory-products{
+        width: 91%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+
+    .shopcategory-products .item{
+        margin: 10px;
+    }
+
+    .shopcategory-pagename h1{
+        font-size: 95px;
+    }
+}
+@media (max-width: 683px) {
+    .shopcategory-products{
+        width: 80%;
+        display: grid;
+        padding-left: 56px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .shopcategory-products .item{
+        margin: 10px;
+    }
+    
+}
+@media (max-width: 557px) {
+    .shopcategory-products{
+        padding: 0px;
+        /* padding-right: 28px; */
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0%;
+        
+    }
+
+    .shopcategory-products .item{
+        margin: auto;
+    }
+
+}

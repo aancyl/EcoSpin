@@ -1,0 +1,56 @@
+.relatedproducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    padding: 3%;
+}
+
+.relatedproducts .title{
+    text-align: center;
+    font-size: 28px;
+    font-family:  "Dancing Script", cursive;
+    font-weight: 700;
+    line-height: 1px;
+}
+
+.relatedproducts h1 {
+    font-family: Helvetica;
+    color: black;
+    font-size: 70px;
+    font-weight: 100;
+}
+.realtedproducts-item{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.realtedproducts-item .item{
+    width: 250px;
+}
+
+
+
+@media (max-width: 700px) {
+    .realtedproducts-item{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 30px;
+    }
+    .relatedproducts h1 {
+        color: black;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .relatedproducts img {
+        width: 100%;
+    }
+    .relatedproducts {
+        gap: 9px;
+    }
+}

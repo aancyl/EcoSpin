@@ -1,0 +1,17 @@
+.about{
+    padding: 10%;
+}
+
+.about-title h1{
+    font-size: 70px;
+    font-family: Helvetica, sans-serif   , Times, serif;
+    font-weight: 100;
+}
+.section{
+    padding: 10px;
+}
+.section h2{
+    font-family:  Helvetica, sans-serif;
+    font-weight: 100;
+}
+

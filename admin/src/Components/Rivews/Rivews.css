@@ -1,0 +1,92 @@
+.list-rivew {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 740px;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 6px;
+    background: white;
+    overflow-y: auto; 
+}
+
+.list-rivew h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.listrivew-sort-button {
+    align-self: flex-start; 
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    font-weight: 100;
+    margin-bottom: 10px; 
+}
+
+.list-rivew p {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.listrivew-format-main {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    color: rgb(26, 24, 24);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.listproduct-format {
+    align-items: center;
+    font-weight: 500;
+}
+
+.listproduct-product-icon {
+    width: 80%;
+}
+
+.listproduct-remove-icon {
+    cursor: pointer;
+    margin: auto;
+}
+
+.listrivew-allrivews {
+    overflow-y: auto;
+}
+
+@media (max-width: 800px) {
+    .list-rivew {
+        box-sizing: border-box;
+        width: 95%;
+        height: 100%;
+        padding: 10px 30px;
+        margin: 20px auto;
+    }
+
+    .listrivew-format-main {
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .list-rivew {
+        box-sizing: border-box;
+        width: 95%;
+        height: 100%;
+        padding: 10px 30px;
+        margin: 20px auto;
+    }
+
+    .listrivew-format-main {
+        padding: 15px 0px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,100 @@
+.adminsignup {
+    width: 100%;
+    height: 80vh;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.adminsignup-container {
+    border-radius: 10px;
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 40px 60px;
+    padding-top: 20px; 
+    gap: 30%;
+}
+
+.adminsignup-container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin: 20px 0px;
+    font-size: 70px;
+}
+
+.adminsignup-fields input {
+    height: 60px;
+    width: 100%;
+    border: 1.5px solid black;
+    margin-bottom: -15px;
+    font-size: 17px;
+    padding-inline-start: 30px;
+}
+
+.adminsignup .password-container {
+    width: 100%;
+    height: 115px;
+    padding-top: 20px;
+}
+
+.password-strength-indicator {
+    height: 10px;
+    padding-top: 10%;
+}
+
+.adminsignup .password-container input {
+    width: 75%;
+    border: none;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.adminsignup .password-container input:focus {
+    outline: none;
+    border-color: transparent;
+}
+
+.adminsignup .password-container button img {
+    width: 25px;
+    align-self: center;
+    padding: 0px 50px;
+}
+
+.adminsignup .password-container button {
+    width: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.adminsignup-container button {
+    width: 110%;
+    height: 72px;
+    color: white;
+    background: black;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+
+.adminsignup-container button:focus {
+    outline: none;
+}
+
+.invalid-inputs{
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+}
+@media (max-width: 700px){
+    .adminsignup .password-container input {
+        width: 60%;
+        border: none;
+        border: 1px solid black;
+        margin-bottom: 10px;
+        user-select: none;
+    }
+}
