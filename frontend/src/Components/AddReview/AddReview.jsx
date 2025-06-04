@@ -39,7 +39,7 @@ const AddReview = ({ all_product, product }) => {
 
             window.location.replace("/mens");
 
-            const response = await fetch('http://localhost:4000/addreview', {
+            const response = await fetch('https://ecospin-ecommerce-backend.onrender.com/addreview', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
