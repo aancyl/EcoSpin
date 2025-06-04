@@ -6,7 +6,7 @@ const NewCollections = () => {
     const [newCollection, setNewCollection] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/newcollections')
+        fetch('https://ecospin-ecommerce-backend.onrender.com/newcollections')
             .then((response) => response.json())
             .then((data) => setNewCollection(data));
     }, []);
