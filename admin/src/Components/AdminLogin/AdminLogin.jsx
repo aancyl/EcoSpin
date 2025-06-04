@@ -15,7 +15,7 @@ const AdminLogin = () => {
         console.log("Log In function executed", formData);
         let responseData;
         try {
-            const response = await fetch('http://localhost:4000/adminlogin', {
+            const response = await fetch('https://ecospin-ecommerce-backend.onrender.com/adminlogin', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
