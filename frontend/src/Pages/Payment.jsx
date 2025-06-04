@@ -67,7 +67,7 @@ const Payment = () => {
             }
 
             // If all validations pass, send the order data to the server
-            const response = await fetch('http://localhost:4000/placeorder', {
+            const response = await fetch('https://ecospin-ecommerce-backend.onrender.com/placeorder', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
