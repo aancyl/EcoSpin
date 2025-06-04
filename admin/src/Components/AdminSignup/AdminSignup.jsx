@@ -29,7 +29,7 @@ const AdminSignup = () => {
                 return;
             }
 
-            const response = await fetch('http://localhost:4000/adminsignup', {
+            const response = await fetch('https://ecospin-ecommerce-backend.onrender.com/adminsignup', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
