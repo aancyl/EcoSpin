@@ -6,7 +6,7 @@ const RelatedProducts = () => {
     const [randomProducts, setRandomProducts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/allproducts')
+        fetch('https://ecospin-ecommerce-backend.onrender.com/allproducts')
             .then((response) => response.json())
             .then((data) => {
                 // Choose 4 random products from the fetched data
