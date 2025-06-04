@@ -12,7 +12,17 @@ import men_banner from '../src/Components/Assets/banner_mens.png';
 import women_banner from '../src/Components/Assets/banner_women.png';
 import kids_banner from '../src/Components/Assets/banner_kids.png';
 import AboutUs from './Pages/About.jsx';
+import { useEffect } from 'react';
+
 function App() {
+
+  useEffect(() => {
+    fetch('https://ecospin-ecommerce-backend.onrender.com/api/ping')
+      .then(res => res.json())
+      .then(data => console.log('Backend connected:', data))
+      .catch(err => console.error('Backend connection failed:', err));
+  }, []);
+  
   return (
     <div>
       <BrowserRouter>
