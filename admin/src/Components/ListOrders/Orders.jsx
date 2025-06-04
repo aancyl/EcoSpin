@@ -12,7 +12,7 @@ const OrderPage = () => {
 
     const fetchOrders = async () => {
         try {
-            const response = await fetch('http://localhost:4000/allorders');
+            const response = await fetch('https://ecospin-ecommerce-backend.onrender.com/allorders');
             const data = await response.json();
             if (data.success) {
                 setOrders(data.orders);
