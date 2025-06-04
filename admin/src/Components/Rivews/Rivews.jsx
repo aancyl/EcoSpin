@@ -8,7 +8,7 @@ const ListProduct = () => {
 
     const fetchReviews = async () => {
         try {
-            const response = await fetch('http://localhost:4000/allreviews');
+            const response = await fetch('https://ecospin-ecommerce-backend.onrender.com/allreviews');
             if (!response.ok) {
                 throw new Error('Failed to fetch reviews');
             }
@@ -24,7 +24,7 @@ const ListProduct = () => {
     }, []);
 
     const removeReview = async (reviewId) => {
-        const response = await fetch('http://localhost:4000/removereview', {
+        const response = await fetch('https://ecospin-ecommerce-backend.onrender.com/removereview', {
             method: 'POST',
             headers: {
                 Accept: 'application/json',
