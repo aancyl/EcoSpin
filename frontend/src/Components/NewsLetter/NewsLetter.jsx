@@ -8,7 +8,7 @@ const NewsLetter = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:4000/newsletter', {
+            const response = await fetch('https://ecospin-ecommerce-backend.onrender.com/newsletter', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
