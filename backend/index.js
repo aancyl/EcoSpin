@@ -10,7 +10,7 @@ const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
 
-mongoose.connect("mongodb+srv://ancyl:aancyl103@cluster0.qcycg4t.mongodb.net/", {
+mongoose.connect("mongodb+srv://ancyl:<not-getting-my-password>@cluster0.qcycg4t.mongodb.net/", {
     bufferCommands: false
 });
 
